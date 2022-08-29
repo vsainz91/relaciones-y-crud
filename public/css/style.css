@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+img{
+  width: 100%;
+}
+figure{
+  width: 20%;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.btn-editar, .btn-delete {
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  margin: 0.5rem;
+}
+
+.btn-editar {
+  background-color: lightgreen;
+}
+
+.btn-delete {
+  background-color: lightcoral;
+}
